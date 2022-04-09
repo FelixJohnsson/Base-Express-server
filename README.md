@@ -8,11 +8,17 @@ With login and database.
 # Endpoints
 
 get '/'
+
 get '/home'
+
 get '/login'
+
 get 'get_user/:username'
 
+
 post 'add_user'
+
 post '/login'
+
 
 get '*'
